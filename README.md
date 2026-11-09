@@ -75,6 +75,7 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 python download_dataset.py
 python main.py
+python -m streamlit run dashboard.py
 ```
 
 Setelah dataset tersimpan di `data`, program dapat dijalankan offline. Grafik disimpan di `results`, dan analisis aktual dibuat otomatis sebagai `results/analysis_id.md`.
